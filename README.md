@@ -1,17 +1,28 @@
-Virtual Digital Trainer (VDT):-
+## Virtual Digital Trainer (VDT)
 
-This is a simple application made in python. It simulates the simple logic circuits and can be used for the verification of the basic logic gates. It has many drawbacks, yet simple to use.
+`Virtual Digital Trainer` is a simple application made in Python. It provides the dashboard to simulate the simple logic circuits and to verify them. It is similar to [Electronics workbench](http://sine.ni.com/nips/cds/view/p/lang/en/nid/202311), though it is not that advanced.
 
-REQUIREMENTS:-  
+## Requirement
 
-For this application to work you need install the python2.7. In windows the "Tkinter" module (library file for GUI in Python) is installed along with the python2.7 but in Ubuntu you have to install it separately. Along with it you will need another module called "Easygui".
+For this application to work you need install the `Python 2.7`. In windows the "Tkinter" module (library file for GUI in Python) is installed along with the python2.7 but in `Ubuntu` you have to install it separately. Along with it you will need another module called `Easygui`.
 
-WORKING:-
+To install in ubuntu execute the following command-
 
-Run the file 'project.py'. It will take sometime to initialized. Now you will have the main window. Click on the gate-buttons below the menu bar and Double-click on the work-area, the gate will appear.Now using the middle button dragging it you can create connections between the gates. Right click on the gate will pop a window for inputs to the gate. At least one seven segment is required for the circuit to simulate. After all connections check click on "final connections" button and verify the connections. At last click on the simulate button to activate the circuit. I have used some images in the project so comment them before running it.
+    $ sudo apt-get install python-tk
 
-LIMITATIONS:-
 
-You cannot simulate circuits which has more no. of gates. Problem in connections.
+ ## Working
 
-feel free to raise errors,views,suggestions srrakshe419@gmail.com         
+Run the file `project.py`. 
+    
+    $ ./project.py
+
+It will take sometime to initialized. Now you will have the main window. Click on the gate-buttons below the menu bar and Double-click on the work-area, the gate will appear. Now using the middle button dragging it you can create connections between the gates. Right click on the gate will pop a window for inputs to the gate. At least one seven segment is required for the circuit to simulate. After all connections check click on *final connections* button and verify the connections. At last click on the simulate button to activate the circuit. I have used some images in the project so comment them before running it.
+
+ ## Downside
+
+You cannot simulate circuits which has more number of gates. 
+
+## Suggestions, Comments
+
+Feel free to raise errors, views, suggestions @ sagarrakshe2@gmail.com         
