@@ -8,7 +8,7 @@ For this application to work you need install the `Python 2.7`. In windows the "
 
 To install in ubuntu execute the following command-
 
-    $ sudo apt-get install python-tk
+    $ sudo apt-get install python-tk python-easygui
 
 
 ## Working
