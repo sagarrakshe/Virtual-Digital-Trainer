@@ -1,7 +1,7 @@
-#! /usr/bin/env python
+#!/usr/bin/python
 
-from Tkinter import*
-from easygui import*
+from Tkinter import *
+from easygui import *
 from tkMessageBox import askyesno, showerror
 import time
 import math
@@ -598,12 +598,12 @@ def callback():
 
 def docs():
     root = Tk()
-    root.iconbitmap(bitmap='D:\Wallpapers\Icons&Sounds\HELP.ICO')
+    root.iconbitmap(bitmap='@./_assets/Help.xbm')
     root.title('Electrical Docs')
     scrollbar = Scrollbar(root)
     scrollbar.pack(side=RIGHT, fill=Y)
     listbox = Listbox(root, yscrollcommand=scrollbar.set)
-    s=open('D:\\VIT\\Python\\Our Project\\new_docs.txt')
+    s=open('./_assets/docs.txt')
     f=s.read()
     s.close()
     f=f.split('\n');i=0
@@ -664,7 +664,7 @@ a=0
 xy=[10,240,20,260,]
 t=['Loading ....','importing gates ..','importing Ic\'s ..','system files..','virtual circuits..','sources..',
    'basic..','transistors..','indicators..','controls..','instruments..','miscellaneous..','initializing vdt..']
-photo=PhotoImage(file='D:\\Wallpapers\\Icons&Sounds\\ICIC.gif')
+photo=PhotoImage(file='./_assets/Ic.gif')
 #photo=PhotoImage(file='/media/Sagar/Wallpapers/Icons/ICIC.gif')
 canvas.create_image(45,50, image=photo)
 canvas.create_rectangle(xy, fill='blue', outline='blue', tag='rect')
@@ -719,7 +719,7 @@ obj_list=[]
 ss='Status\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tx\t\ty'
 
 root.title('DIGICAL')
-root.iconbitmap(bitmap='D:\Wallpapers\Icons&Sounds\TRANSFRM.ICO')
+root.iconbitmap(bitmap = "@./_assets/Transform.xbm")
 root.geometry('1348x700+5+5')
 #root.resizable(0,0)
 
