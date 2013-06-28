@@ -19,7 +19,7 @@ Run the file `project.py`.
 
 It will take sometime to initialized. Now you will have the main window. Click on the gate-buttons below the menu bar and Double-click on the work-area, the gate will appear. Now using the middle button dragging it you can create connections between the gates. Right click on the gate will pop a window for inputs to the gate. At least one seven segment is required for the circuit to simulate. After all connections check click on *final connections* button and verify the connections. At last click on the simulate button to activate the circuit. I have used some images in the project so comment them before running it.
 
-![virtual-digital-trainer](https://raw.github.com/sagarrakshe/Virtual-Digital-Trainer/master/_assets/vdt.png)
+![vdt image](https://raw.github.com/sagarrakshe/Virtual-Digital-Trainer/master/_assets/vdt.png)
 
 ## Downside
 
